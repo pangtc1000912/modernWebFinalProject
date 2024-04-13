@@ -1,0 +1,38 @@
+.booking-form {
+  border-radius: 0.5rem;
+  border: 1px solid rgb(229, 231, 235);
+  padding: 2rem;
+}
+
+.booking-form h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.booking-form label {
+  font-size: 1rem;
+}
+
+.booking-form input[type='text'],
+.booking-form input[type='number'],
+.booking-form input[type='tel'],
+.booking-form input[type='email'],
+.booking-form input[type='date'] {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+/* .booking-form button[type='submit'] {
+  background: var(--secondary-color) !important;
+  margin-top: 1rem;
+  outline: none;
+} */
+.booking__btn a {
+  text-decoration: none;
+  font-size: 0.9rem;
+  color: #fff;
+}
+.booking__btn a:hover {
+  color: #fff;
+}

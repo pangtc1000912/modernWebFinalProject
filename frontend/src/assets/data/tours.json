@@ -1,0 +1,74 @@
+[
+  {
+    "title": "Humber River Trail",
+    "city": "Etobicoke",
+    "trailLength": 3,
+    "maxGroupSize": 10,
+    "desc": "this is the description",
+    "photo": "/tour-images/tour-img01.jpg",
+    "featured": true
+  },
+  {
+    "title": "Hilton Falls Trail",
+    "city": "Milton",
+    "trailLength": 3.5,
+    "maxGroupSize": 8,
+    "desc": "this is the description",
+    "photo": "/tour-images/tour-img02.jpg",
+    "featured": true
+  },
+  {
+    "title": "Niagara Falls Day Trip",
+    "city": "Niagara Falls",
+    "trailLength": 4.5,
+    "maxGroupSize": 8,
+    "desc": "this is the description",
+    "photo": "/tour-images/tour-img03.jpg",
+    "featured": true
+  },
+  {
+    "title": "Algonquin Park Day Trip",
+    "city": "Whitney",
+    "trailLength": 3,
+    "maxGroupSize": 8,
+    "desc": "this is the description",
+    "photo": "/tour-images/tour-img04.jpg",
+    "featured": true
+  },
+  {
+    "title": "Dundas Peak Day Trip",
+    "city": "Hamilton",
+    "trailLength": 2,
+    "maxGroupSize": 8,
+    "desc": "this is the description",
+    "photo": "/tour-images/tour-img05.jpg",
+    "featured": true
+  },
+  {
+    "title": "Bruce Peninsula Day Trip",
+    "city": "Tobermory",
+    "trailLength": 3,
+    "maxGroupSize": 8,
+    "desc": "this is the description",
+    "photo": "/tour-images/tour-img06.jpg",
+    "featured": true
+  },
+  {
+    "title": "Riverwood Trail",
+    "city": "Mississauga",
+    "trailLength": 3,
+    "maxGroupSize": 8,
+    "desc": "this is the description",
+    "photo": "/tour-images/tour-img07.jpg",
+    "featured": true
+  },
+  {
+    "title": "Moccasin Trail",
+    "city": "Toronto",
+    "trailLength": 2.5,
+    "maxGroupSize": 8,
+    "desc": "this is the description",
+    "photo": "/tour-images/tour-img08.jpg",
+    "featured": true
+  }
+]

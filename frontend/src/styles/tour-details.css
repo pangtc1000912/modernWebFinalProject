@@ -1,0 +1,20 @@
+.tour_content img {
+  width: 100%;
+  border-radius: 0.5rem;
+  margin-bottom: 2.5rem;
+}
+.tour_info {
+  border-radius: 0.5rem;
+  border: 1px solid rgb(229, 231, 235);
+  padding: 2rem;
+}
+.tour_info h2 {
+  font-size: 1.5rem;
+}
+.tour_extra_details {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.tour_description {
+  color: var(--text-color);
+}
