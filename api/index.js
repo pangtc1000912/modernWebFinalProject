@@ -105,6 +105,8 @@ passport.deserializeUser(async (id, done) => {
   }
 })
 
+app.get("/", (req, res) => res.send("Express on Vercel"))
+
 app.post('/register', async (req, res) => {
   try {
     console.log("request landed")
@@ -156,7 +158,7 @@ app.post('/booking', async (req, res) => {
   }
 })
 
-const PORT = 3006
+
 
 app.get('/sessionCheck', (req, res) => {
   console.log(req.session)
@@ -165,4 +167,7 @@ app.get('/sessionCheck', (req, res) => {
   res.send('Check your server logs for the session details and user info')
 })
 
-app.listen(PORT, () => console.log(`Server running on port->${PORT}`))
+app.listen(3000, () => console.log("Server ready on port 3000."))
+
+module.exports = app;
+

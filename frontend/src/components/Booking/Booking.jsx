@@ -11,7 +11,7 @@ const Booking = () => {
 
   const submitTrip = async () => {
     try {
-      const response = await fetch('http://localhost:3006/booking', {
+      const response = await fetch('http://localhost:3000/booking', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ name, numberOfPeople, phoneNumer, email, date }),

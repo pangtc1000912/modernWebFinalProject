@@ -77,7 +77,7 @@ const Register = () => {
 
     try {
       console.log('Frontend request initiated')
-      const response = await fetch('http://localhost:3006/register', {
+      const response = await fetch('http://localhost:3000/register', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ username, password, email, province }),

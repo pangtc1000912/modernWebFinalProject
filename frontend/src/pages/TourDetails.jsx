@@ -9,7 +9,7 @@ const TourDetails = () => {
   const { id } = useParams()
   const [tourDetailData, setTourDetailData] = useState([])
   useEffect(() => {
-    fetch(`http://localhost:3006/trips/${id}`)
+    fetch(`http://localhost:3000/trips/${id}`)
       .then((response) => response.json())
       .then((data) => setTourDetailData(data))
       .catch((error) => console.error('Error fetching tools data:', error))
